@@ -1,9 +1,9 @@
-[2;2Rude "holberton.h"
+#include "holberton.h"
 #include <stdarg.h>
 #include <stdlib.h>
 /**
  * _printc - prints a char
- * @c: char to print
+ * @c_list: char to print
  *
  * Return: always 1
  */
@@ -16,8 +16,8 @@ return (1);
 }
 
 /**
- * print_s - prints a string
- * @s: string to print
+ * _prints - prints a string
+ * @s_list: string to print
  *
  * Return: number of chars printed
  */
