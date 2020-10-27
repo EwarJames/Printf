@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_i - prints an integer
- * @i: integer to print
+ * _printi - prints an integer
+ * @i_list: integer to print
  *
  * Return: number of chars and digits printed
  */
@@ -41,7 +41,7 @@ return (count);
 
 /**
  * _printd - prints a decimal
- * @d: decimal to print
+ * @d_list: decimal to print
  *
  * Return: number of chars and digits printed
  */
@@ -55,7 +55,7 @@ m = 1000000000;
 a[0] = n / m;
 for (j = 1; j < 10; j++)
 {
-m/= 10;
+m /= 10;
 a[j] = (n / m) % 10;
 }
 if (n < 0)
