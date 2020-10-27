@@ -19,7 +19,6 @@ int (*func)(va_list);
 
 
 int _printf(const char *format, ...);
-static int (*check_s(const char *format))(va_list);
 int _putchar(char c);
 int _printc(va_list c_list);
 int _prints(va_list s_list);
