@@ -1,4 +1,4 @@
-#include "holberton.h"
+[2;2Rude "holberton.h"
 #include <stdarg.h>
 #include <stdlib.h>
 /**
@@ -7,9 +7,9 @@
  *
  * Return: always 1
  */
-int _printc(va_list c)
+int _printc(va_list c_list)
 {
-char ch = (char)va_arg(c, int);
+char ch = (char)va_arg(c_list, int);
 
 _putchar(ch);
 return (1);
@@ -21,10 +21,10 @@ return (1);
  *
  * Return: number of chars printed
  */
-int _prints(va_list s)
+int _prints(va_list s_list)
 {
 int count;
-char *str = va_arg(s, char *);
+char *str = va_arg(s_list, char *);
 
 if (str == NULL)
 str = "(null)";
